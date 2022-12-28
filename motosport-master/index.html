@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <!--============ REMIX ICONS ============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--============ SWIPER CSS ============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!--============ CSS ============-->
+    <link rel="stylesheet" href="./assets/css/styles-min.css">
+    <title>BMX shop</title>
+</head>
+<body>
+    <!--============ HEADER ============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-motorbike-fill"></i>
+                BMX shop
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">про BMX</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Популярные модели</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">В наличии</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--============ MAIN ============-->
+    <main class="main">
+        <!--============ HOME ============-->
+        <section class="home section" id="home">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Что такое BMX?
+                    </h1>
+
+                    <h2 class="home__subtitle">
+                        Изначально BMX велосипед создавался для подготовки детей к мотокроссу.<br>
+						Но благодаря его способности стойко выдерживать нагрузки, которые не под силу другим<br> маунтинбайкам, сейчас этот велосипед пользуется большой популярностью в трюковом катании.<br>
+						На нем можно совершать виражи, прыгать с трамплина и осуществлять другие эффектные трюки.
+                    </h2>
+
+                    <h3 class="home__elec">
+                        <i class="ri-vip-diamond-fill"></i> Велосипед Subrosa Sono
+                    </h3>
+                </div>
+
+                <img src="./assets/img/home.png" alt="" class="home__img">
+
+                
+
+                <!-- <a href="#" class="home__button">START</a> -->
+            </div>
+        </section>
+
+        <!--============ ABOUT ============-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="./assets/img/about.jpg" alt="" class="about__img">
+
+                    
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        <!-- Machines With <br> Future Technology -->
+                        Почему ты <br> Должен выбрать BMX?
+                    </h2>
+
+                    <p class="about__description">
+                        Это очень красивый, агрессивный, молодежный вид спорта.
+                    </p>
+                    <a href="#" class="button">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <!--============ POPULAR ============-->
+        <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Лучшие велосипеды <br> для новичков
+            </h2>
+
+            <div class="popular__container container swiper">
+                <div class="swiper-wrapper">
+                    <!-- Article One -->
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title"> Cult</h1>
+                        <h3 class="popular__subtitle">Gateway</h3>
+
+                        <img src="./assets/img/popular/popular1.png" alt="" class="popular__img">
+
+                       
+
+                        <h3 class="popular__price">34 990 руб</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <!-- Article Two -->
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Subrosa</h1>
+                        <h3 class="popular__subtitle">Salvador XL</h3>
+
+                        <img src="./assets/img/popular/popular2.png" alt="" class="popular__img">
+
+                        
+
+                        <h3 class="popular__price">44 990 руб</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <!-- Article Three -->
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Kink</h1>
+                        <h3 class="popular__subtitle">Gap</h3>
+
+                        <img src="./assets/img/popular/popular3.png" alt="" class="popular__img">
+
+                      
+
+                        <h3 class="popular__price">45 990 руб</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <!-- Article Four -->
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Kink</h1>
+                        <h3 class="popular__subtitle">Curb</h3>
+
+                        <img src="./assets/img/popular/popular4.png" alt="" class="popular__img">
+
+                       
+
+                        <h3 class="popular__price">42 990 руб</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <!-- Article Five -->
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">HARO</h1>
+                        <h3 class="popular__subtitle">Boulevard</h3>
+
+                        <img src="./assets/img/popular/popular5.png" alt="" class="popular__img">
+
+                    
+
+                        <h3 class="popular__price">32 200 руб</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--============ FEATURES ============-->
+        <section class="features section">
+            <h2 class="section__title">
+                <!-- More Features -->
+                Признаки профессионального <br> BMX
+            </h2>
+
+            <div class="features__container container grid">
+                <div class="features__group">
+                    <img src="./assets/img/features.png" alt="" class="features__img">
+
+                    <div class="features__card features__card-1">
+                        <h3 class="features__card-title">Легкий вес</h3>
+                        <p class="features__card-description">10200гр.</p>
+                    </div>
+
+                    <div class="features__card features__card-2">
+                        <h3 class="features__card-title">Прочные трубы</h3>
+                        <p class="features__card-description">Из сплава<br> хромолибдена</p>
+                    </div>
+
+                    <div class="features__card features__card-3">
+                        <h3 class="features__card-title">Надежные втулки</h3>
+                        <p class="features__card-description">С промышленными <br> подшипниками</p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="./assets/img/world-map.svg" alt="" class="features__map">
+        </section>
+
+        <!--============ FEATURED ============-->
+        <section class="featured section" id="featured">
+            <h2 class="section__title">
+                Детали в наличии
+            </h2>
+
+            <div class="featured__container container">
+                <ul class="featured__filters">
+                    <li>
+                        <button class="featured__item active-featured" data-filter="all">
+                            <span>Все</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".tesla">
+                            <img src="./assets/img/logos/logo7.png" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".audi">
+                            <img src="./assets/img/logos/logo5.png" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".porsche">
+                            <img src="./assets/img/logos/logo2.png" alt="">
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="featured__content grid">
+                    <article class="featured__card mix tesla">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">BMX Руль Animal</h1>
+                        <h3 class="featured__subtitle">Foursome 4pc</h3>
+
+                        <img src="./assets/img/featured/featured1.png" alt="" class="featured__img">
+
+                        <h3 class="featured__price">6 490 руб</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix tesla">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">BMX Шатуны Animal</h1>
+                        <h3 class="featured__subtitle">Akimbo</h3>
+
+                        <img src="./assets/img/featured/featured2.png" alt="" class="featured__img">
+
+                        <h3 class="featured__price">18 990 руб</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix audi">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Вилка SUNDAY</h1>
+                        <h3 class="featured__subtitle">Darkwave</h3>
+
+                        <img src="./assets/img/featured/featured3.png" alt="" class="featured__img">
+
+                        <h3 class="featured__price">10 492 руб</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix porsche">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Звезда Merritt</h1>
+                        <h3 class="featured__subtitle">Pentaguard</h3>
+
+                        <img src="./assets/img/featured/featured4.png" alt="" class="featured__img">
+
+                        <h3 class="featured__price">8 299 руб</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="featured__card mix porsche">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="featured__title">Колесо Merritt</h1>
+                        <h3 class="featured__subtitle">Non-Stop 20</h3>
+
+                        <img src="./assets/img/featured/featured5.png" alt="" class="featured__img">
+
+                        <h3 class="featured__price">15 999 руб</h3>
+
+                        <button class="button featured__button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--============ OFFER ============-->
+        
+
+        <!--============ LOGOS ============-->
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <div class="logos__content">
+                    <img src="./assets/img/logos/logo1.png" alt="" class="logos__img">
+                </div>
+                <div class="logos__content">
+                    <img src="./assets/img/logos/logo2.png" alt="" class="logos__img">
+                </div>
+                <div class="logos__content">
+                    <img src="./assets/img/logos/logo3.png" alt="" class="logos__img">
+                </div>
+                <div class="logos__content">
+                    <img src="./assets/img/logos/logo4.png" alt="" class="logos__img">
+                </div>
+                <div class="logos__content">
+                    <img src="./assets/img/logos/logo5.png" alt="" class="logos__img">
+                </div>
+                <div class="logos__content">
+                    <img src="./assets/img/logos/logo7.png" alt="" class="logos__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--============ FOOTER ============-->
+    <footer class="footer section">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <!-- <i class="ri-steering-line"></i> Elecar -->
+                    <i class="ri-motorbike-fill"></i> BMX shop
+                </a>
+                <p class="footer__description">
+                    Доставка возможна во все города России и СНГ. <br>
+                    Сроки доставки полностью зависят от транспортных компаний. <br>
+                    
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    ПОМОЩЬ
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Как заказать</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Обратная связь</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Корзина</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Личный кабинет</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    СЕРВИС
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Гарантия</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Доставка</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Оплата</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Follow us
+                </h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            &#169; Вячеслав зеленский | ИКПИ-01.
+        </span>
+    </footer>
+
+    <!--============ SCROLL UP ============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--============ SCROLL REVEAL ============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!--============ SWIPER JS ============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!--============ MIXITUP JS ============-->
+    <script src="./assets/js/mixitup.min.js"></script>
+    <!--============ MAIN JS ============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
